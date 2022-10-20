@@ -6,6 +6,8 @@ In this solution I re-did it again and this time according to the mobile first a
 
 You can view the summbited solution here [Stats preview card component challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/stats-preview-card-component-8JqbgoU62)
 
+![](frontend-mentor/Screenshot/2022-10-20_151215.png)
+
 ### Built with
 
 - Semantic HTML5 markup
