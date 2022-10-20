@@ -7,7 +7,6 @@
   /*colors*/
   --bg-body: hsl(233, 47%, 7%);
   --bg-card: hsl(244, 38%, 16%);
-  --c-body: hsla(0, 0%, 100%, 0.75);
   --accent: hsl(277, 64%, 61%);
   --c-stat-headings: hsl(0, 0%, 100%);
   --c-sub-stat-headings: hsla(0, 0%, 100%, 0.6);
@@ -52,12 +51,12 @@ body {
   -webkit-font-smoothing: antialiased;
   scroll-behavior: smooth;
   line-height: 1.3;
-  font-family: var(--ff-body);
+  font-family: var(--ff-headings);
   font-size: var(--fs-body);
 
   /*color*/
   background: var(--bg-body);
-  color: var(--c-body);
+  color: var(--c-sub-stat-headings);
 }
 
 .container {
@@ -104,7 +103,7 @@ body {
 .title {
   font-family: var(--ff-headings);
   font-size: var(--fs-h1-mobile);
-  color: var(--main-stat-headings);
+  color: var(--c-stat-headings);
 }
 
 .title span {
