@@ -2,51 +2,17 @@
 
 ## Hello everyone! 👋
 
-Here I'm writing my learning process in this challenge.
+In this solution I re-did it again and this time according to the mobile first approach. I also wanted to try using a 12-column approach, but this wasn't the right project for that. I searched through a lot of options, and it still didn't work well in terms of the placement of the elements. I learned from this that it is more suitable for pages than for specific elements of cards, models, etc. Regarding mobile- first approach, I'm not sure if I'm writing less code, but I notice that I have more control and actually a little less responsiveness between the breakpoints. So maybe there is a more accurate approach to do this. Not sure what the guidelines are for that.
 
-1. I had trouble with creating a fitted image in flexbox layout and at the same time this would also be responsive. I solved it using the following code:
-
-```css
-.image-content {
-	width: 100%;
-}
-
-.image-content img {
-	display: block;
-	width: 100%;
-	height: 100%;
-	object-fit: cover;
-	border-radius: 0 0.625rem 0.625rem 0;
-}
-```
-
-2. Coloring the picture was also not easy, and it seems that I still haven't hit the specific color according to the reference design. There was some ways to color the image, so I choose the following code, because it removes the need to use background images which make trouble in mobile view, and adding more div as overlay element:
-
-```css
-.image-content {
-	width: 100%;
-	position: relative;
-}
-
-.image-content::after {
-	content: '';
-	position: absolute;
-	top: 0;
-	left: 0;
-	width: 100%;
-	height: 100%;
-	background: var(--accent);
-	mix-blend-mode: overlay;
-	border-radius: 0 0.625rem 0.625rem 0;
-}
-
-.image-content img {
-	display: block;
-	width: 100%;
-	height: 100%;
-	object-fit: cover;
-	border-radius: 0 0.625rem 0.625rem 0;
-	filter: brightness(.5);
-}
-```
 You can view the summbited solution here [Stats preview card component challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/stats-preview-card-component-8JqbgoU62)
+
+### Built with
+
+- Semantic HTML5 markup
+- CSS custom properties
+- CSS Grid
+- Mobile-first workflow
+
+## Author
+
+Coded by [@kirawesh](https://www.frontendmentor.io/profile/kirawesh)
